@@ -3,7 +3,6 @@ import React, { useState, Fragment } from "react";
 import Image from "next/image";
 import { Listbox, Transition } from "@headlessui/react";
 import { CustomFilterProps } from "@/types";
-import { Router } from "react-router-dom";
 import { useRouter } from "next/navigation";
 import { updateSearchParams } from "@/utils";
 const CustomFilter = ({ title, options }: CustomFilterProps) => {
